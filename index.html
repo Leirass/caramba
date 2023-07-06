@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylecarousel.css">
+</head>
+<body>
+    <header>
+        <div class="logo">TinLev</div>
+        <div class="diavloo">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="">Pretendientes</a>
+                </li>
+                <li>
+                    <a href="">Nuestro Porque</a>
+                </li>
+                <li>
+                    <a href="">Desarrolladores</a>
+                </li>
+                <li>
+                    <a href="">Mas</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <script>
+        diavloo= document.querySelector(".diavloo");
+        diavloo.onclick= function(){
+            navBar= document.querySelector(".nav-bar")
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <div class="slider-frame">
+        <ul>
+            <li><img src="slider1.jpg" alt=""></li>
+            <li><img src="slider2.jpg" alt=""></li>
+            <li><img src="slider3.jpg" alt=""></li>
+            <li><img src="slider4.jpg" alt=""></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
